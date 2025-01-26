@@ -4,5 +4,8 @@
   <PicklesV.label>Маринованные огурцы</PicklesV.label>
   <PicklesV.description>Огурцы, консервированные в соленом рассоле.</PicklesV.description>
 
+  <SaladSimple.label>Летний салат</SaladSimple.label>
+  <SaladSimple.description>Простой салат, быстро приготовленный из простых ингредиентов.</SaladSimple.description>
+
 
 </LanguageData>

@@ -23,7 +23,7 @@
 		</statBases>
 		<ingestible>
 			<preferability>RawTasty</preferability>
-			<tasteThought/>
+			<tasteThought>HadPickles</tasteThought>
 			<foodType>VegetableOrFruit</foodType>
 			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
 		</ingestible>
@@ -35,5 +35,58 @@
 		</comps>
 		<stackLimit>75</stackLimit>
 	</ThingDef>
+	
+<ThoughtDef>
+		<defName>HadPickles</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>I'm Pickle Rick</label>
+				<description>I ate a delicious pickled cucumber... Maybe the whole jar.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+ <ThingDef ParentName="MealCooked">
+    <defName>SaladSimple</defName>
+    <label>simple salad</label>
+    <description>A simple Salad quickly cooked from simple ingredients.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Meal/Salad</texPath>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.93</Nutrition>
+    </statBases>
+    <ingestible>
+	  <tasteThought>HadSalad</tasteThought>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+	 <comps>
+      <li Class="CompProperties_Ingredients">
+        <performMergeCompatibilityChecks>false</performMergeCompatibilityChecks>
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
+    </comps>
+  </ThingDef>
+<ThoughtDef>
+		<defName>HadSalad</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>I feel the power of the earth</label>
+				<description>I ate a delicious salad and felt a surge of energy.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 </Defs>

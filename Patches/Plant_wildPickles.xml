@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
 		<value>
-			<Plant_Pickles>1</Plant_Pickles>
+			<Plant_Pickles>0.01</Plant_Pickles>
 		</value>
    </Operation>
    

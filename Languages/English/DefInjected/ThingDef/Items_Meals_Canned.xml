@@ -4,5 +4,8 @@
   <PicklesV.label>Pickled cucumbers</PicklesV.label>
   <PicklesV.description>Pickles that have been preserved in a salty brine.</PicklesV.description>
 
+  <SaladSimple.label>simple salad</SaladSimple.label>
+  <SaladSimple.description>A simple Salad quickly cooked from simple ingredients.</SaladSimple.description>
+
 
 </LanguageData>

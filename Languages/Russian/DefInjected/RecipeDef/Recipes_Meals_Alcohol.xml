@@ -116,5 +116,13 @@
   <Make_Pickles.description>Посолите огурцы и закатайте их в банки. Сделать 3шт.</Make_Pickles.description>
   <Make_Pickles.jobString>Закатка.</Make_Pickles.jobString>
 
+  <CookSaladSimple.label>Приготовить летний салат</CookSaladSimple.label>
+  <CookSaladSimple.description>Приготовьте салат из простых ингредиентов.</CookSaladSimple.description>
+  <CookSaladSimple.jobString>Готовит простой салат.</CookSaladSimple.jobString>
+
+  <CookSaladSimpleBulk.label>Приготовить летний салат x4</CookSaladSimpleBulk.label>
+  <CookSaladSimpleBulk.description>Приготовьте 4 салата из простых ингредиентов.</CookSaladSimpleBulk.description>
+  <CookSaladSimpleBulk.jobString>Готовит простой салат.</CookSaladSimpleBulk.jobString>
+
 
 </LanguageData>
