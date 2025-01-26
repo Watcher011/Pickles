@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Makejar.label>Выплавить 3х банки для консервирования овощей.</Makejar.label>
+  <Makejar.description>Простые стеклянные банки для консервирования, в них можно хранить консервы практически вечно.</Makejar.description>
+  <Makejar.jobString>Создает банки.</Makejar.jobString>
+
+  <MakeSmeltjar.label>Переработать 3 банки для консервирования овощей</MakeSmeltjar.label>
+  <MakeSmeltjar.description>Переплавить Простые стеклянные банки для консервирования.</MakeSmeltjar.description>
+  <MakeSmeltjar.jobString>Переплавляет банки.</MakeSmeltjar.jobString>
+
+
+</LanguageData>

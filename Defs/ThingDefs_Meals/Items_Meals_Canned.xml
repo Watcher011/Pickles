@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="CannedNonMeatBase">
+		<defName>PicklesV</defName>
+		<label>Pickled cucumbers</label>
+		<description>Pickles that have been preserved in a salty brine.</description>
+		<possessionCount>2</possessionCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Meal/Pickles</texPath>
+			<drawSize>(0.7,0.7)</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>Preserves</li>
+			<li>ExtraPlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+			<foodType>VegetableOrFruit</foodType>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">  
+				<daysToRotStart>150</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+
+</Defs>

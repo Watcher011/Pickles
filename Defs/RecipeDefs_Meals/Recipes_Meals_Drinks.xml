@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<RecipeDef>
+		<defName>Makejar</defName>
+		<label>Make 3 jars for canning vegetables</label>
+		<description>Simple glass canning jars, you can store canned goods in them practically forever.</description>
+        <jobString>Creates jars.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>TableFurnace</li>
+			<li>GlassworkTable</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GlassBatch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Emptyjar>5</Emptyjar>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>MakeSmeltjar</defName>
+		<label>Smelt 3 jars for canning vegetables</label>
+		<description>Smelt Simple glass canning jars, you can store canned goods in them practically forever</description>
+		<jobString>Smelt jar.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>TableFurnace</li>
+			<li>GlassworkTable</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Emptyjar</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Emptyjar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GlassBatch>25</GlassBatch>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+
+<ThingDef ParentName="CropsBase">
+		<defName>Emptyjar</defName>
+		<label>Empty jar</label>
+		<description>Empty bottle for preserving.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Emptyjar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.7</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<Mass>0.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Canware</li>
+		</thingCategories>
+		<stackLimit>20</stackLimit>
+	</ThingDef>
+
+
+</Defs>

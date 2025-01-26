@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <RecipeDef>
+		<defName>Make_Pickles</defName>
+		<label>Make Pickled cucumbers</label>
+		<description>Salt the cucumbers and roll them into jars. Produces 3.</description>
+		<jobString>Brewing batch of wort.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>600</workAmount>
+		<recipeUsers>
+			<li>Brewery</li>
+			<li>Canningstove</li>
+			<li>ElectricBrewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPickles</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Emptyjar</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPickles</li>
+				<li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PicklesV>3</PicklesV>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_PicklesMod</defName>
+		<label>Make Pickled cucumbers</label>
+		<description>Salt the cucumbers and roll them into jars. Takes 3 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPickles</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Emptyjar</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+		</ingredients>
+		<products>
+			<PicklesV>9</PicklesV>
+		</products>
+		<recipeUsers>
+			<li>UniversalFermenter</li>
+		</recipeUsers>
+			<!{1}** RecipeDef_UF fields **{1}>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-1.0~32.0</temperatureSafe>
+		<temperatureIdeal>7.0~32.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour>
+		<!{1}** percent per degree per hour **{1}>
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<processDays>3</processDays>
+		<!{1}** in days, 60000 ticks is a day **{1}>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<qualityDays>(4, 5, 6, 7, 8, 9, 10)</qualityDays>
+		<graphicSuffix />
+	</RecipeDef> -->
+
+  <Make_Pickles.label>Make Pickled cucumbers</Make_Pickles.label>
+  <Make_Pickles.description>Salt the cucumbers and roll them into jars. Produces 3.</Make_Pickles.description>
+  <Make_Pickles.jobString>Brewing batch of wort.</Make_Pickles.jobString>
+
+
+</LanguageData>
